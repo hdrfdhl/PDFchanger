@@ -24,7 +24,7 @@ namespace changer2015
 
         private void pw1_Click(object sender, EventArgs e)
         {
-            Form1 word = new Form1();
+            word word = new word();
             word.Show();
             this.Hide();
         }

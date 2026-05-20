@@ -2,7 +2,6 @@ D:\pbp2\changer2015\changer2015\bin\Debug\changer2015.exe.config
 D:\pbp2\changer2015\changer2015\bin\Debug\changer2015.exe
 D:\pbp2\changer2015\changer2015\bin\Debug\changer2015.pdb
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.csprojResolveAssemblyReference.cache
-D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.Form1.resources
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.Properties.Resources.resources
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.csproj.GenerateResource.Cache
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.exe
@@ -29,3 +28,4 @@ D:\pbp2\changer2015\changer2015\bin\Debug\System.Buffers.xml
 D:\pbp2\changer2015\changer2015\bin\Debug\System.Memory.xml
 D:\pbp2\changer2015\changer2015\bin\Debug\System.Numerics.Vectors.xml
 D:\pbp2\changer2015\changer2015\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.word.resources
