@@ -33,11 +33,18 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnpf = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.label3 = new System.Windows.Forms.Label();
             this.btnback = new System.Windows.Forms.Button();
             this.cmbfrom = new System.Windows.Forms.ComboBox();
+=======
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+>>>>>>> 8314c81 (Gabung Pisah PDF)
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbto = new System.Windows.Forms.ComboBox();
@@ -94,10 +101,21 @@
             this.panel1.DragEnter += new System.Windows.Forms.DragEventHandler(this.panel1_DragEnter);
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(521, 521);
+            this.webBrowser1.TabIndex = 1;
+            this.webBrowser1.Visible = false;
+            // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(210, 252);
             this.label2.Name = "label2";
+<<<<<<< HEAD
             this.label2.Size = new System.Drawing.Size(100, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Drop Here";
@@ -114,6 +132,33 @@
             this.webBrowser1.Visible = false;
             // 
             // label3
+=======
+            this.label2.Size = new System.Drawing.Size(70, 16);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Drop Here";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(548, 56);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(297, 55);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "PDF - Word";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1193, 216);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(96, 29);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Kembali";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // comboBox1
+>>>>>>> 8314c81 (Gabung Pisah PDF)
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bookman Old Style", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -177,6 +222,7 @@
             // 
             // btnconvert
             // 
+<<<<<<< HEAD
             this.btnconvert.Location = new System.Drawing.Point(935, 358);
             this.btnconvert.Name = "btnconvert";
             this.btnconvert.Size = new System.Drawing.Size(96, 29);
@@ -184,6 +230,15 @@
             this.btnconvert.Text = "Convert";
             this.btnconvert.UseVisualStyleBackColor = true;
             this.btnconvert.Click += new System.EventHandler(this.button3_Click);
+=======
+            this.button3.Location = new System.Drawing.Point(953, 430);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(96, 29);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Convert";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+>>>>>>> 8314c81 (Gabung Pisah PDF)
             // 
             // btndownload
             // 
